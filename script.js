@@ -4,3 +4,4 @@ let MyThirdVariable = 2;
 alert(myFirstVariable)
 alert(my_second_variable)
 alert(MyThirdVariable)
+alert('Hello world')
