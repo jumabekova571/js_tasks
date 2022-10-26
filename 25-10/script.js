@@ -1,3 +1,4 @@
+//? Задание №1
 let a = 17;
 let b = 10;
 let test = a - b;
@@ -17,9 +18,12 @@ let  min = 13;
 let sec = 25;
 alert(`${hour}:${min}:${sec}:`);
 
-var num = 10;
+let num = 10;
 num++;
 alert(num);
+
+
+
 
 
 
