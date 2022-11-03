@@ -1,6 +1,6 @@
 /********* Задание -1 ********/
 function hello(){
-  console.log ('Привет, JavaScript!');
+  alert('Привет, JavaScript!');
 }
 hello();
 
@@ -13,13 +13,13 @@ function cube(num) {
 }
 
 let result = cube (7);
-console.log(result)
+alert(result)
 
 
 
 /********* Задание -3 ********/ 
 function getName (name = 'гость'){
-  console.log(`привет, ${name}`); 
+  alert(`привет, ${name}`); 
 }
 getName ('Василий')
 getName ()
