@@ -1,0 +1,43 @@
+.notification-container{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.notification{
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+  background-color: #ffdfff;
+  border: 1px solid #ff16ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  min-width: 300px;
+}
+
+.notification.red{
+  background-color: #ffa4b8;
+  border: 1px solid #ff1648;
+}
+.notification.blue{
+  background-color: #a7acfa;
+  border: 1px solid #1625ff;
+}
+.notification.yellow{
+  background-color: #a7ffa4;
+  border: 1px solid #31ff16;
+}
+
+.btn{
+  margin: 4px 2px;
+  border: 0;
+  padding: 6px 12px;
+  background-color: dodgerblue;
+  color: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
