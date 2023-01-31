@@ -5,6 +5,9 @@ const success_btn = document.querySelector('#success-btn');
 const container = document.querySelector('#notification-container');
 const addItemBtn = document.querySelector('#add-item-btn');
 const myList = document.querySelector('#my-list');
+const btn = document.querySelector('#ok-btn');
+const modal = document.querySelector('#modal');
+
 
 
 const showNotification = ({
@@ -59,4 +62,11 @@ success_btn.addEventListener('click', () => {
 
 addItemBtn.addEventListener('click', () => {
     addItem({ text: 'Пункт 4' })
+})
+
+btn.addEventListener('click', () => {
+    modal.innerHTML = '<div class="notification notification-success">hello world <button id="close-btn">x</button></div>'
+    document.querySelector('#close-btn').addEventListener('click', () => {
+        modal.innerHTML = '';
+    })
 })
